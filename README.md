@@ -1,47 +1,46 @@
-# ☕ Object Oriented Java Programming Lab
-
 <div align="center">
 
-## BMS COLLEGE OF ENGINEERING, BANGALORE-19
-### Department of Computer Science and Engineering
+# ☕ Object Oriented Java Programming
 
-<img src="https://upload.wikimedia.org/wikipedia/en/5/5e/BMS_College_of_Engineering_logo.png" width="140">
+### BMS College of Engineering, Bengaluru
 
-</div>
+<img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" />
+<img src="https://img.shields.io/badge/Course-OOPJ-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/College-BMSCE-red?style=for-the-badge" />
 
 ---
 
-# 👨‍🎓 Student Details
+## 👨‍🎓 Student Details
 
 | Detail | Information |
 |---|---|
 | **Name** | Priyanshu Sharan |
 | **USN** | 1WA24CS223 |
-| **Course** | Object Oriented Java Programming |
-| **Semester** | 3 |
 | **Department** | Computer Science and Engineering |
 | **College** | BMS College of Engineering |
 
 ---
 
-# 👩‍🏫 Faculty Details
+## 👩‍🏫 Faculty Details
 
 | Detail | Information |
 |---|---|
 | **Faculty Name** | Shravya AR |
 | **Designation** | Assistant Professor |
+| **Course** | Object Oriented Java Programming |
 | **Department** | Computer Science and Engineering |
-| **College** | BMS College of Engineering |
+
+</div>
 
 ---
 
 # 📚 About Repository
 
-This repository contains all the **Object Oriented Java Programming Laboratory Programs** implemented as part of the BMSCE Java Laboratory coursework.
+This repository contains **Object Oriented Java Programming Laboratory Programs** implemented as part of the **OOPJ Laboratory course** at **BMS College of Engineering (BMSCE)**.
 
-The repository covers:
+The repository covers important Java concepts including:
 
-- Java Basics
+- Java Fundamentals
 - Classes and Objects
 - Constructors
 - Inheritance
@@ -50,20 +49,82 @@ The repository covers:
 - Multithreading
 - AWT Graphics
 - Event Handling
-- GUI Programming
+- GUI Applications
 
 ---
 
-# 🛠 Technologies Used
+# 🧠 Topics Covered
 
-- Java
-- AWT
-- Swing
-- Multithreading
-- Exception Handling
-- Object Oriented Programming
-- Visual Studio Code
-- Git & GitHub
+## 🔹 Java Basics
+- Quadratic Equation Solver
+- Student SGPA Calculator
+- Book Class using Constructor
+- toString() Method
+
+---
+
+## 🔹 Inheritance
+- Shape Area Calculation
+- Bank Account System
+- Method Overriding
+- Hierarchical Inheritance
+
+---
+
+## 🔹 Packages and Exception Handling
+- CIE & SEE Packages
+- User Defined Exceptions
+- Inheritance-based Exception Handling
+
+---
+
+## 🔹 Multithreading
+- Thread Demonstration
+- IPC and Deadlock
+- Thread Synchronization
+
+---
+
+## 🔹 AWT & GUI Programming
+- Division Calculator
+- Mouse Events
+- Graphics Drawing
+- Event Handling
+
+---
+
+## 🔹 Additional AWT Mini Projects
+- Smiley Face
+- House Hut
+- Traffic Light
+- Indian Flag
+- Car Drawing
+- Olympic Rings
+
+---
+
+# 📂 Programs Included
+
+| Sl No | Program Name | File Name |
+|---|---|---|
+| 1 | Quadratic Equation Solver | `quadratic-equation.java` |
+| 2 | Student SGPA Calculator | `student-details.java` |
+| 3 | Book Class Program | `book-class.java` |
+| 4 | Shape Inheritance Program | `shapes.java` |
+| 5 | Bank Account System | `bank-account.java` |
+| 6 | Student Package Program | `student-packages/` |
+| 7 | Inheritance Exception Handling | `inheritance-exception.java` |
+| 8 | Thread Demonstration | `thread-demo.java` |
+| 9 | Division Calculator GUI | `division-calculator.java` |
+| 10 | IPC and Deadlock | `ipc-and-deadlock.java` |
+| 11 | Mouse Events Program | `mouse-events.java` |
+| 12 | Graphics Demo | `graphics-demo.java` |
+| 13 | Smiley Face using AWT | `smiley-face.java` |
+| 14 | House Hut using AWT | `house-hut.java` |
+| 15 | Traffic Light using AWT | `traffic-light.java` |
+| 16 | Indian Flag using AWT | `india-flag.java` |
+| 17 | Car Drawing using AWT | `car-drawing.java` |
+| 18 | Olympic Rings using AWT | `olympic-rings.java` |
 
 ---
 
@@ -96,74 +157,31 @@ java/
 │
 ├── awt-and-swings/
 │   ├── division-calculator.java
-│   ├── mouse-events.java
 │   ├── graphics-demo.java
-│   ├── smiley-face.java
-│   ├── house-hut.java
-│   ├── traffic-light.java
-│   ├── india-flag.java
-│   ├── car-drawing.java
-│   └── olympic-rings.java
+│   ├── mouse-events.java
+│   │
+│   └── awt-mini-projects/
+│       ├── car-drawing.java
+│       ├── house-hut.java
+│       ├── india-flag.java
+│       ├── olympic-rings.java
+│       ├── smiley-face.java
+│       └── traffic-light.java
 │
 └── README.md
 ```
 
 ---
 
-# 🧠 Programs Included
+# ⚙️ How to Run the Programs
 
-## 🔹 Java Basics
-
-- Quadratic Equation Solver
-- Student SGPA Calculator
-- Book Class using Constructor and toString()
-
----
-
-## 🔹 Inheritance
-
-- Shape Area Calculation
-- Bank Account System
-
----
-
-## 🔹 Packages and Exception Handling
-
-- CIE & SEE Package Program
-- Inheritance Exception Handling
-
----
-
-## 🔹 Multithreading
-
-- Thread Demonstration
-- IPC and Deadlock
-
----
-
-## 🔹 AWT & GUI Programs
-
-- Division Calculator
-- Mouse Events
-- Graphics Demo
-- Smiley Face
-- House Hut
-- Traffic Light
-- Indian Flag
-- Car Drawing
-- Olympic Rings
-
----
-
-# ⚙️ How to Run
-
-## ✅ Compile Program
+## ✅ Compile the Program
 
 ```bash
 javac FileName.java
 ```
 
-## ▶️ Execute Program
+## ▶️ Execute the Program
 
 ```bash
 java ClassName
@@ -171,69 +189,52 @@ java ClassName
 
 ---
 
-# 🎯 Repository Objectives
+# 🛠️ Technologies Used
 
-- Learn Object Oriented Programming Concepts
-- Understand Java Programming Fundamentals
-- Practice GUI Development using AWT
-- Explore Multithreading and Exception Handling
-- Improve Problem Solving Skills
-- Prepare for Laboratory Exams and Viva
+- **Programming Language:** Java
+- **GUI Framework:** AWT & Swing
+- **IDE:** Visual Studio Code
+- **Version Control:** Git & GitHub
+- **Concepts:** OOP, Threads, Exception Handling, Graphics
 
 ---
 
-# 📖 Topics Covered
+# 🎯 Learning Outcomes
+
+- Understand Object Oriented Programming Concepts
+- Implement Java Classes and Objects
+- Learn Inheritance and Polymorphism
+- Practice Exception Handling
+- Understand Multithreading Concepts
+- Build GUI Applications using AWT
+- Explore Java Graphics Programming
+
+---
+
+# 📖 Course Concepts Covered
 
 - Classes and Objects
 - Constructors
-- Method Overriding
 - Inheritance
+- Method Overriding
 - Packages
 - Exception Handling
 - Threads
-- AWT Graphics
+- Synchronization
+- GUI Programming
 - Event Handling
-- GUI Applications
+- AWT Graphics
 
 ---
-
-# 🌟 Additional AWT Mini Projects
-
-This repository also contains extra AWT Graphics programs such as:
-
-- 😊 Smiley Face
-- 🏠 House Hut
-- 🚦 Traffic Light
-- 🇮🇳 Indian Flag
-- 🚗 Car Drawing
-- 🏅 Olympic Rings
-
-These programs were added for additional practice and graphics visualization.
-
----
-
-# 🚀 Future Improvements
-
-- Swing Applications
-- JDBC Programs
-- Mini Java Projects
-- File Handling
-- Animation Programs
-- Advanced GUI Applications
-
----
-
-# ⭐ Thank You ⭐
 
 <div align="center">
 
-## Created By
+# ⭐ Thank You ⭐
 
-### Priyanshu Sharan  
-**USN:** 1WA24CS223  
+### Created by  
+## Priyanshu Sharan  
+### USN: 1WA24CS223
 
-### BMS College of Engineering  
-Bangalore, Karnataka
+### BMS College of Engineering, Bengaluru
 
 </div>
-```
